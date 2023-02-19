@@ -28,3 +28,9 @@ Unordered list of 5 other websites
 ## **Page 04**
 - H1 heading: The Witcher 3: Wild Hunt Images
 - Add 6 images displayed 3 wide and 2 down
+
+# *Page Style*
+## Page 1
+H1 headings
+Font:
+Font color:
