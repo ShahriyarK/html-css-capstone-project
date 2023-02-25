@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    background-color:#F0F7EE
+}
+.navbar{
+    display:flex;
+    justify-content:flex-start;
+    column-gap: 50px;
+    font-size: 20px;
+    background-color: #0D324D;
+    position:sticky;
+    top:0px;
+    border-color:#0D324D;
+}
+.navbar__font{
+    color:#F0F7EE;
+    height:24px;
+}
+a{
+    text-decoration:none;
+}
+.h1Headers{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 60px;
+    display:flex;
+    justify-content:center;
+    color: #070707;
+    padding-top: 20px;
+}
+.h2Headers{
+    font-family:'Garamond', serif;
+    font-weight:bold;
+    font-size:35px;
+    margin-left: 100px;
+    padding-top:30px;
+}
+p{
+    font-family:'Garamond', serif;
+    font-size: 27px;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align:justify;
+    padding-bottom: 15px;
+    padding-top:5px;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.divcontainer__image{
+    padding:0;
+    min-width:1012.8px;
+    overflow: hidden;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+}
+.divcontainer{
+    display:flex;
+}
+.divcontainer__paragraph{
+    min-width:1012.8px;
+}
+
+#divcontainer__image--size{
+    width:1700px;
+    height:100%;
+}
+#container__field{
+    width:800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D324D;
+    border-color: #0D324D;
+    border-radius: 10px 100px / 120px;
+}
+form{
+    height:651.47px;
+    margin-top:120px;
+}
+.containerP2{
+    height:100vh;
+}
+#inputContainer{
+    display:flex;
+    flex-direction: column;
+    row-gap:50px;
+    font-size: 25px;
+    width:600px;
+    color: #F0F7EE;
+    font-family:'Garamond', serif;
+
+}
+.inputContainer__sub{
+    display:flex;
+    justify-content: space-between;
+}
+#name,#date{
+    width:250px;
+    align-self: flex-end;
+    font-size:25px;
+    font-family:'Garamond', serif;
+}
+#inputContainer__checkbox{
+    display:flex;
+    justify-content: space-between;
+}
+#checkbox{
+    width:25px;
+    height:25px;
+    align-self:center;
+    margin-right:226px;
+}
+#inputContainer__textbox{
+    display:flex;
+    flex-direction:column;
+}
+#commentBox{
+    height:150px;
+    font-size: 20px;
+    margin-top:10px;
+}
+legend{
+    text-align:center;
+    font-size:40px;
+    border: solid 1px;
+    background-color: #FE5F55;
+    border-color: #FE5F55;
+    font-family:'Garamond', serif;
+    font-weight: bold;
+    border-radius:10px;
+}
+button{
+    align-self:flex-start;
+    font-size:28px;
+    width: 130px;
+    background-color:#FE5F55;
+    font-family:'Garamond', serif;
+    font-weight:bold;
+    padding:3px;
+    border-color:#FE5F55
+}

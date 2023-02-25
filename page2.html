@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>The Witcher Fanpage-Survey</title>
+    <link rel="stylesheet" href="capstone-project.css" type="text/css">
+</head>
+<body class="containerP2">
+    <div class="navbar">
+        <a href="page1.html" class="navbar__font">
+            Home
+        </a>
+        <a href="page2.html" class="navbar__font">
+            Survey
+        </a>
+        <a href="page3.html" class="navbar__font">
+            Wiki
+        </a>
+        <a href="page4.html" class="navbar__font">
+            Game
+        </a>
+    </div>
+        <form action="/form-handling-url" method="post" class="container">
+            <fieldset id="container__field">
+                <legend>
+                    Share Your Thoughts
+                </legend>
+                <div id="inputContainer">
+                    <div class="inputContainer__sub">
+                        <label for="name">Full Name</label>
+                        <input id="name" name="user-name" type="text">
+                    </div>
+                    <div class="inputContainer__sub">
+                        <label for="date">Date of Birth</label>
+                        <input id="date" type="date" name="currnet-date">
+                    </div>
+                    <div id="inputContainer__checkbox">
+                        <label for="checkbox">Have you played<br>The Witcher games?</label>
+                        <input id="checkbox" name="user-experience" type="checkbox">
+                    </div>
+                    <div id="inputContainer__textbox">
+                        <label for="comment-box">Your Views</label>
+                        <textarea id="commentBox" name="user-thoughts"></textarea>
+                    </div>
+                    <button type="sumbit">Submit</button>
+                </div>
+            </fieldset>
+
+        </form>
+
+</body>
+</html>
