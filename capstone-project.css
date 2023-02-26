@@ -9,7 +9,7 @@ html{
     display:flex;
     justify-content:flex-start;
     column-gap: 50px;
-    font-size: 22px;
+    font-size: 20px;
     background-color: #0D324D;
     position:sticky;
     top:0px;
@@ -18,14 +18,14 @@ html{
 }
 .navbar__font{
     color:#F0F7EE;
-    height:24px;
+    height:22px;
 }
 a{
     text-decoration:none;
 }
 .h1Headers{
     font-family: Copperplate, Papyrus, fantasy;
-    font-size: 60px;
+    font-size: 45px;
     display:flex;
     justify-content:center;
     color: #0D324D;
@@ -34,18 +34,17 @@ a{
 .h2Headers{
     font-family:'Garamond', serif;
     font-weight:bold;
-    font-size:35px;
-    margin-left: 100px;
-    padding-top:30px;
+    font-size:30px;
+    margin-left: 70px;
+    padding-top:15px;
     color:#FE5F55;
 }
 p{
     font-family:'Garamond', serif;
-    font-size: 27px;
-    margin-left: 100px;
-    margin-right:100px;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right:70px;
     text-align:justify;
-    padding-bottom: 15px;
     padding-top:5px;
 }
 .container{
@@ -54,7 +53,7 @@ p{
 }
 .divcontainer__image{
     padding:0;
-    min-width:1012.8px;
+    min-width:759.6px;
     overflow: hidden;
     margin-bottom:20px;
     display:flex;
@@ -64,7 +63,7 @@ p{
     display:flex;
 }
 .divcontainer__paragraph{
-    min-width:1012.8px;
+    min-width:759.6px;
 }
 
 #divcontainer__image--size{
@@ -72,16 +71,16 @@ p{
     height:100%;
 }
 #container__field{
-    width:800px;
+    width:670px;
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: #0D324D;
     border-color: #0D324D;
-    border-radius: 10px 100px / 120px;
+    border-radius: 10px 70px / 90px;
 }
 form{
-    height:651.47px;
+    height:356.8px;
     margin-top:120px;
 }
 .containerP2{
@@ -90,8 +89,8 @@ form{
 #inputContainer{
     display:flex;
     flex-direction: column;
-    row-gap:50px;
-    font-size: 25px;
+    row-gap:10px;
+    font-size: 20px;
     width:600px;
     color: #F0F7EE;
     font-family:'Garamond', serif;
@@ -99,12 +98,12 @@ form{
 }
 .inputContainer__sub{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 #name,#date{
     width:250px;
     align-self: flex-end;
-    font-size:25px;
+    font-size:20px;
     font-family:'Garamond', serif;
 }
 #inputContainer__checkbox{
@@ -112,23 +111,23 @@ form{
     justify-content: space-between;
 }
 #checkbox{
-    width:25px;
-    height:25px;
+    width:15px;
+    height:15px;
     align-self:center;
-    margin-right:226px;
+    margin-right:238px;
 }
 #inputContainer__textbox{
     display:flex;
     flex-direction:column;
 }
 #commentBox{
-    height:150px;
+    height:90px;
     font-size: 20px;
     margin-top:10px;
 }
 legend{
     text-align:center;
-    font-size:40px;
+    font-size:25px;
     border: solid 1px;
     background-color: #FE5F55;
     border-color: #FE5F55;
@@ -138,8 +137,8 @@ legend{
 }
 button{
     align-self:flex-start;
-    font-size:28px;
-    width: 130px;
+    font-size:20px;
+    width: 90px;
     background-color:#FE5F55;
     font-family:'Garamond', serif;
     font-weight:bold;
@@ -147,23 +146,23 @@ button{
     border-color:#FE5F55
 }
 #listcontainer__list{
-    font-size: 27px;
+    font-size: 20px;
 }
 .listcontainer{
     display:flex;
     justify-content:center;
-    padding-top:100px;
+    padding-top:50px;
 }
 .listcontainer__list--space{
     margin-bottom:10px;
 }
 .listcontainer__parent{
-    width:500px;
+    width:350px;
     display:flex;
     justify-content:center;
     background-color:#FE5F55;
     border-radius:50px;
-    padding:20px;
+    padding:8px;
 }
 li a{
     color:black;
@@ -180,5 +179,5 @@ li a{
 }
 .divcontainer__imagep4{
     aspect-ratio:3/2;
-    width:900px;
+    width:400px;
 }
