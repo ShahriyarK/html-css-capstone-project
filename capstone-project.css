@@ -9,11 +9,12 @@ html{
     display:flex;
     justify-content:flex-start;
     column-gap: 50px;
-    font-size: 20px;
+    font-size: 22px;
     background-color: #0D324D;
     position:sticky;
     top:0px;
     border-color:#0D324D;
+    padding-left:20px;
 }
 .navbar__font{
     color:#F0F7EE;
@@ -27,7 +28,7 @@ a{
     font-size: 60px;
     display:flex;
     justify-content:center;
-    color: #070707;
+    color: #0D324D;
     padding-top: 20px;
 }
 .h2Headers{
@@ -36,6 +37,7 @@ a{
     font-size:35px;
     margin-left: 100px;
     padding-top:30px;
+    color:#FE5F55;
 }
 p{
     font-family:'Garamond', serif;
@@ -66,7 +68,7 @@ p{
 }
 
 #divcontainer__image--size{
-    width:1700px;
+    width:1900px;
     height:100%;
 }
 #container__field{
@@ -143,4 +145,40 @@ button{
     font-weight:bold;
     padding:3px;
     border-color:#FE5F55
+}
+#listcontainer__list{
+    font-size: 27px;
+}
+.listcontainer{
+    display:flex;
+    justify-content:center;
+    padding-top:100px;
+}
+.listcontainer__list--space{
+    margin-bottom:10px;
+}
+.listcontainer__parent{
+    width:500px;
+    display:flex;
+    justify-content:center;
+    background-color:#FE5F55;
+    border-radius:50px;
+    padding:20px;
+}
+li a{
+    color:black;
+}
+.imgcontainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-right:100px;
+    margin-left:100px;
+    padding-top:50px;
+    row-gap:20px;
+    padding-bottom:50px;
+}
+.divcontainer__imagep4{
+    aspect-ratio:3/2;
+    width:900px;
 }
